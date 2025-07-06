@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/Phot-\ by-Ali-Durmuş-Cevlan.jpg");
   background-size: cover;
   background-repeat: no-repeat;
