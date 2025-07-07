@@ -229,6 +229,12 @@ section.secondary {
   text-align: center;
 }
 
+.instagram-media {
+  width: 320px !important;
+  height: 400px !important;
+  max-width: 100% !important;
+}
+
 @media (max-width: 900px) {
   body {
     margin: auto 15px;
