@@ -6,6 +6,16 @@
   --Andalusian-Sand: #faf3e0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "poppins", sans-serif;
   background-color: var(--Olive-Mist);
@@ -18,11 +28,13 @@ body {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/Phot-\ by-Ali-Durmuş-Cevlan.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+
   color: var(--Alhambra-Blush);
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 260px 0;
+  background-position: center;
 }
 
 header h1 {
@@ -49,7 +61,7 @@ header h3 {
 
 header a {
   font-weight: 700;
-  font-size: 14;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 3px;
@@ -60,6 +72,61 @@ header a {
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
+}
+
+footer {
+  color: var(--Olive-Mist);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("../images/Photo-by-Pixabay-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+}
+
+footer a.website {
+  text-decoration: none;
+  color: var(--Alhambra-Blush);
+}
+
+footer a.website:hover {
+  text-decoration: underline;
+  color: var(--Sunset-Clay);
+}
+
+footer a.developer {
+  text-decoration: none;
+  color: var(--Alhambra-Blush);
+}
+
+footer a.developer:hover {
+  text-decoration: underline;
+  color: var(--Sunset-Clay);
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--Sunset-Clay);
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 2rem; /* Optional: adds spacing between columns */
+  padding: 1rem 0; /* Optional: adds vertical padding */
 }
 
 @media (max-width: 900px) {
@@ -74,5 +141,8 @@ header a {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
