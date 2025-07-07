@@ -239,6 +239,7 @@ section.secondary {
   body {
     margin: auto 15px;
   }
+
   header {
     padding: 60px 0;
   }
@@ -252,17 +253,17 @@ section.secondary {
     font-size: 20px;
   }
 
-  main img {
-    display: none;
-  }
-
-  main h2,
   header h3,
   footer h3,
   main p,
   footer p {
     font-size: 12px;
   }
+
+  main img {
+    display: none;
+  }
+
   footer {
     padding: 50px 0;
   }
