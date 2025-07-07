@@ -1,10 +1,10 @@
 :root {
   --button-color: #272044;
-  --Alhambra-Blush: #f2e1c1;
-  --Sunset-Clay: #e6b89c;
-  --Olive-Mist: #e7e4d2;
-  --Andalusian-Sand: #faf3e0;
-  --Deep-Charcoal: #2c2c2c;
+  --alhambra-blush: #f2e1c1;
+  --sunset-clay: #e6b89c;
+  --olive-mist: #e7e4d2;
+  --andalusian-sand: #faf3e0;
+  --deep-charcoal: #2c2c2c;
   --contrast: #226d68;
 }
 
@@ -24,7 +24,7 @@ html {
 
 body {
   font-family: "poppins", sans-serif;
-  background-color: var(--Olive-Mist);
+  background-color: var(--olive-mist);
 }
 .container {
   max-width: 1400px;
@@ -35,7 +35,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/Photo-by-Ali-Durmuş-Cevlan.jpg");
 
-  color: var(--Alhambra-Blush);
+  color: var(--alhambra-blush);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ header a {
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background-color: var(--Alhambra-Blush);
+  background-color: var(--alhambra-blush);
   text-decoration: none;
   color: var(--button-color);
   padding: 16px 32px;
@@ -89,6 +89,10 @@ header a {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-equal-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-3-columns {
@@ -110,7 +114,6 @@ main h2 {
   letter-spacing: 5px;
   opacity: 0.3;
   text-transform: uppercase;
-  margin: 0;
 }
 
 main h3 {
@@ -118,16 +121,51 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
-  margin: 0;
 }
 
 main p {
-  color: var(--Deep-Charcoal);
+  color: var(--deep-charcoal);
   font-size: 16px;
 }
 
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--button-color);
+  margin-bottom: 8px;
+}
+
+.card h5 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+main a.btn {
+  display: block;
+  background-color: var(--alhambra-blush);
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+}
+
 footer {
-  color: var(--Olive-Mist);
+  color: var(--olive-mist);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
     url("../images/Photo-by-Pixabay-footer.png");
   background-size: cover;
@@ -138,29 +176,29 @@ footer {
 
 footer a.website {
   text-decoration: none;
-  color: var(--Alhambra-Blush);
+  color: var(--alhambra-blush);
 }
 
 footer a.website:hover {
   text-decoration: underline;
-  color: var(--Sunset-Clay);
+  color: var(--sunset-clay);
 }
 
 footer a.developer {
   text-decoration: none;
-  color: var(--Alhambra-Blush);
+  color: var(--alhambra-blush);
 }
 
 footer a.developer:hover {
   text-decoration: underline;
-  color: var(--Sunset-Clay);
+  color: var(--sunset-clay);
 }
 
 footer h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: var(--Sunset-Clay);
+  color: var(--sunset-clay);
 }
 
 footer ul {
@@ -178,12 +216,23 @@ footer p {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: var(--andalusian-sand);
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 900px) {
+  body {
+    margin: auto 15px;
+  }
   header {
     padding: 60px 0;
   }
