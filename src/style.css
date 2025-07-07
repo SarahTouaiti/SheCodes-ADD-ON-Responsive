@@ -172,6 +172,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
+  padding: 60px 20px;
 }
 
 footer a.website {
@@ -225,6 +226,11 @@ section.secondary {
   background-color: var(--andalusian-sand);
 }
 
+section.embeds {
+  padding: 0;
+  margin: 0;
+}
+
 .text-center {
   text-align: center;
 }
@@ -265,7 +271,7 @@ section.secondary {
   }
 
   footer {
-    padding: 50px 0;
+    padding: 30px 10px;
   }
 
   .grid {
