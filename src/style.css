@@ -270,6 +270,11 @@ section .emnbed {
     display: none;
   }
 
+  section.embeds {
+    padding: 0;
+    margin: 0;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
