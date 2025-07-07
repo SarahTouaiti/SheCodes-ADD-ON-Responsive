@@ -172,6 +172,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
+  padding: 60px 20px;
 }
 
 footer a.website {
@@ -225,8 +226,7 @@ section.secondary {
   background-color: var(--andalusian-sand);
 }
 
-section .emnbed,
-footer .unit {
+section .emnbed {
   display: block;
   margin: 0 auto;
 }
@@ -272,5 +272,9 @@ footer .unit {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  footer {
+    padding: 30px 10px;
   }
 }
