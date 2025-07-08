@@ -296,10 +296,6 @@ section.secondary {
   .grid {
     grid-template-columns: 1fr;
   }
-  .embeds {
-    display: flex;
-    justify-content: center;
-  }
   .embed {
     margin: 0;
     padding: 0;
