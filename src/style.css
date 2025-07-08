@@ -294,8 +294,8 @@ section .emnbed {
   }
 
   section.embeds {
-    padding: 0;
-    margin: 0;
+    display: block;
+    margin: auto 0;
   }
 
   .grid {
