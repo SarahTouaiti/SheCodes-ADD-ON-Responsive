@@ -296,7 +296,9 @@ section.secondary {
   .grid {
     grid-template-columns: 1fr;
   }
-
+  .embeds {
+    margin: 0;
+  }
   .embed {
     margin: auto;
   }
