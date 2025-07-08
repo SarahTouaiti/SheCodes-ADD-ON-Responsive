@@ -249,6 +249,11 @@ section.secondary {
   background-color: var(--andalusian-sand);
 }
 
+.embeds {
+  margin: 0;
+  padding: 0;
+}
+
 .embed {
   display: block;
   margin: 0 auto;
@@ -295,10 +300,6 @@ section.secondary {
 
   .grid {
     grid-template-columns: 1fr;
-  }
-  .embed {
-    margin: 0;
-    padding: 0;
   }
 
   footer {
