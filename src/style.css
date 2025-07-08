@@ -250,8 +250,8 @@ section.secondary {
 }
 
 section .emnbed {
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .text-center {
@@ -291,11 +291,6 @@ section .emnbed {
 
   main img {
     display: none;
-  }
-
-  section.embeds {
-    display: block;
-    margin: auto 0;
   }
 
   .grid {
