@@ -247,6 +247,7 @@ section {
 
 section.secondary {
   background-color: var(--andalusian-sand);
+  padding: 48px 24px;
 }
 
 .embeds {
