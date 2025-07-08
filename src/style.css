@@ -249,9 +249,9 @@ section.secondary {
   background-color: var(--andalusian-sand);
 }
 
-.instagram-wrapper {
-  display: flex;
-  justify-content: center;
+.embed {
+  display: block;
+  margin: 0 auto;
 }
 
 .text-center {
@@ -295,6 +295,10 @@ section.secondary {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .embed {
+    margin: auto;
   }
 
   footer {
