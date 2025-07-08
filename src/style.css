@@ -298,6 +298,10 @@ section.secondary {
     display: none;
   }
 
+  section.secondary {
+    padding: 24px 12px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
