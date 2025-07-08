@@ -249,7 +249,7 @@ section.secondary {
   background-color: var(--andalusian-sand);
 }
 
-section .emnbed {
+.instagram-wrapper {
   display: flex;
   justify-content: center;
 }
