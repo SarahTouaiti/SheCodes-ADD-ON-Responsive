@@ -297,10 +297,12 @@ section.secondary {
     grid-template-columns: 1fr;
   }
   .embeds {
-    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   .embed {
-    margin: auto;
+    margin: 0;
+    padding: 0;
   }
 
   footer {
