@@ -302,6 +302,13 @@ section.secondary {
     padding: 24px 12px;
   }
 
+  section.secondary p {
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    word-spacing: 0.5px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
