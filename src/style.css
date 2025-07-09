@@ -299,6 +299,15 @@ section.secondary {
     display: none;
   }
 
+  .img-responsive {
+    display: none;
+  }
+
+  .first-col {
+    margin: 0;
+    padding: 0;
+  }
+
   section.secondary {
     padding: 24px 12px;
   }
